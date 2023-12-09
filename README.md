@@ -15,7 +15,9 @@ This script in particular<br>
 
  Once your box is up and you have docker installed follow the dockerhub instructiosnexcept do not pull the latest build, change the script to pull 2.1.0 like this 
 
-```docker run -d -p 8080:8088 -e "SUPERSET_SECRET_KEY=your_secret_key_here" --name superset apache/superset:2.1.0```
+```
+docker run -d -p 8080:8088 -e "SUPERSET_SECRET_KEY=your_secret_key_here" --name superset apache/superset:2.1.0
+```
 
 Modify the following to change from defaults (Just the password will suffice if yer lazy)
 
