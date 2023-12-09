@@ -13,7 +13,7 @@ This script in particular<br>
  
  https://github.com/tteck/Proxmox/discussions/1988
 
- Once your box is up and you have docker installed follow the dockerhub instructiosn except do not pull the latest build, change the script to pull 2.1.0 like this 
+ Once your box is up and you have docker installed follow the dockerhub instructions except do not pull the latest build, change the script to pull 2.1.0 like this 
 
 ```
 docker run -d -p 8080:8088 -e "SUPERSET_SECRET_KEY=your_secret_key_here" --name superset apache/superset:2.1.0
